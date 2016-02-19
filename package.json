@@ -1,0 +1,22 @@
+{
+  "name": "restore-files",
+  "version": "1.0.0",
+  "description": "Restore files tool",
+  "main": "restore.js",
+  "dependencies": {
+    "config": "^1.19.0",
+    "fs-extra": "^0.26.5",
+    "line-by-line": "^0.1.4",
+    "mongodb": "^2.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node restore 2>&1 | tee -a log.txt"
+  },
+  "keywords": [
+    "restore",
+    "fs"
+  ],
+  "author": "Alex Shoronov <alexshoronov@gmail.com>",
+  "license": "MIT"
+}

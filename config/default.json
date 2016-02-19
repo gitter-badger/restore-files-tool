@@ -1,0 +1,11 @@
+{
+    "files": {
+        "src": "./src",
+        "dest": "./upload",
+        "list": "./list.txt"
+    },
+
+    "db": {
+        "url": "mongodb://localhost/ukon"
+    }
+}
